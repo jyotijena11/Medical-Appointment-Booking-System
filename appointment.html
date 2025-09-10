@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+    <link rel="stylesheet" href="./styles/appointment.css">
+</head>
+<body>
+    <h1>Medical Appointment Booking System</h1>
+    <header>
+        <nav class="navBar">
+            <ul>
+                <li>
+                    <a href="index.html">Home Page</a>
+                </li>
+                <li>
+                    <a href="register.html">Register Page</a>
+                </li>
+                <li>
+                    <a href="login.html">Login Page</a>
+                </li>
+                <li>
+                    <a href="doctors.html">Doctor Page</a>
+                </li>
+                <li>
+                    <a href="appointment.html">History</a>
+                </li>
+                <li>
+                    <a href="slotAvailability.html">Slot Availability</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="displayAppointment">
+        <!-- All the appointment from backend -->
+    </div>
+    <div id="slotAvailability"></div>
+</body>
+</html>
+<script src="./script/appointment.js"></script>
+<script src="./script/slotAvailability.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        displaySlotAvailability('slotAvailability');
+    });
+</script>
