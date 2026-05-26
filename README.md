@@ -70,7 +70,6 @@ Follow these steps to set up and run the project locally on your machine.
 Git: https://github.com/jyotijena11/Medical-Appointment-Booking-System.git
 
 Netlify: https://medical-appoinment.netlify.app/
-live project link
 
 # Navigate to the project directory:
 cd Medical-Appointment-Booking-System
